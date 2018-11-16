@@ -1,0 +1,68 @@
+body {
+    font-family: 'Noto Serif';
+    font-size: 16px;
+    line-height: 1.7; /* 16px * 1,7 = 27,2 */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'AMG Anahit';
+}
+
+a {
+    color: #1E90FF;
+}
+
+a:hover, a:focus {   /* по наведению курсора */ /* в фокусе */
+    color: #FF4500;
+}
+
+a:active {          /* активная ссылка - во время клика */
+    color: #DC143C;
+}
+
+ul.navigation {
+    list-style-type: none;
+    font-family: 'AMG Anahit';
+    font-style: 20px;
+    line-height: 1.7;
+}
+
+.navigation li {
+    
+}
+
+dt {
+  font-family: 'AMG Anahit';
+  color: #8B4513;  
+}
+
+dd {
+  color: #B22222;   
+}
+
+img {
+    
+/* -webkit-border-radius: 10px;   префикс для страрых браузеров */  
+        border-radius: 10px;
+/* -webkit-box-shadow: 0px 5px 10px #87CEEB; */
+        box-shadow: 0px 3px 10px #808080;
+}
+
+.photo-block img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;   /* отступ справа */
+    margin-bottom: 20px;  /* отступ снизу */
+}
+
+body {
+    background: #FFEBCD;
+}
+
+iframe {
+    border: 0px;
+}
+
+
+

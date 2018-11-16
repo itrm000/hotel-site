@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование номера</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/anahit/anahit.css">
+    <link rel="stylesheet" href="fonts/notoserif/notoserif.css">
+</head>
+<body>
+<h1 id="start">Отель AMATHUS BEACH LIMASSOL 5*</h1> 
+<hr>
+   <ul>
+       <li><a href="index.html"><strong>Описание отеля</strong> </a></li>
+       <li><a href="photo.html"><strong>Фотогалерея</strong></a></li>
+       <li><a href="contacts.html"><strong>Карта и расположение отеля</strong></a></li>
+       <li><a href="booking.html"><strong>Забронировать номер </strong></a></li>
+   </ul>
+   
+<h2>Забронировать номер в отеле</h2>
+
+<form>
+  <h3>Основные даннные</h3>  
+  
+  <label for="fio">Ваше Ф.И.О.</label>
+  <input type="text" placeholder="ф.и.о." id="fio" required>
+  
+  <label for="email">Email</label>
+  <input type="email" placeholder="email" id="email" required>
+  
+  <label for="phone">Телефон</label>
+  <input type="text" placeholder="телефон" id="phone" required>
+  <br><br>
+  
+  <label for="date_from">Дата заезда</label>
+  <input type="date" id="date_from">
+  
+  <label for="date_till">Дата выезда</label>
+  <input type="date" id="date_till">
+  <br><br>
+  
+  <label for="type_room">Тип номера</label>
+  <select name="type_room" id="type_room">
+      <option value="1">Одноместный</option>
+      <option value="2">Двухместный</option>
+      <option value="3">Двухместный раздельный</option>
+      <option value="4">Двухместный раздельный</option>
+      <option value="5">Двухместный люкс</option>
+      <option value="6">Двухместный президентский люкс</option> 
+  </select>
+  <br><br>
+  
+  <label for="adults">Количество взрослых</label>
+  <select name="adults" id="adults">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+  </select>
+  
+  <label for="kids">Количество детей</label>
+  <select name="kids" id="kids">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+  </select>
+  
+  <h2>Тип поездки</h2>
+   
+   <input type="radio" id="type_business" name="type_trip" value="type_business">
+   <label for="type_business">Бизнес</label><br>
+   
+    <input type="radio" id="type_resort" name="type_trip" value="type_resort">
+   <label for="type_resort">Отдых</label> 
+    
+   
+    <h3>Дополнительные опции</h3>
+    
+    <input type="checkbox" id="option_1" name="option_1"> 
+    <label for="option_1">Трансфер из аэропорта</label>
+    <br> 
+       
+    <input type="checkbox" id="option_2" name="option_2"> 
+    <label for="option_2">Аренда скутера</label>
+    <br>     
+    
+    <input type="checkbox" id="option_3" name="option_3"> 
+    <label for="option_3">Аренда автомобиля</label>
+    <br>           
+          
+    <input type="checkbox" id="option_4" name="option_4"> 
+    <label for="option_4">Экскурсия</label>
+    <br><br> 
+    
+    
+    <label for="comment">Комментарий для бронирования</label><br>
+    <textarea name="name" id="comment" cols="60" rows="4" placeholder="напишите ваши комментарии"></textarea><br><br>       
+    
+    <input type="submit" value="Забронировать номер">        
+</form>
+<br><br>
+
+<a href="#start">К началу страницы</a>    
+</body>
+</html>
